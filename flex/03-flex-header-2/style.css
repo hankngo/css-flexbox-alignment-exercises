@@ -49,10 +49,8 @@ ul {
 
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   padding: 8px;
-  gap: 16px;
 }
 
 .links {
@@ -60,4 +58,18 @@ ul {
   padding: 0;
   gap: 16px;
   margin-right: auto;
+}
+
+/* Answers */
+.left-nav {
+  display: flex;
+  justify-content: flex;
+  gap: 16px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  gap: 16px;
 }
